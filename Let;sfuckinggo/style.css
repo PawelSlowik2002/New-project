@@ -1,0 +1,72 @@
+.body {
+  background-color: dimgray;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  text-align: center;
+  background-color: darkcyan;
+  border-radius: 15px;
+}
+.navigation__link {
+  color: rgb(77, 166, 224);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+}
+.main{
+    padding: 10px;
+}
+.header {
+  background-color: crimson;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.header__title {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+.about-me {
+  background-color: skyblue;
+  border-radius: 15px;
+}
+.about-me__description {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px 30px 30px;
+  align-items: center;
+}
+.about-me__title {
+  display: inline-block;
+  padding: 20px;
+}
+
+.about-me__text {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+.about-me__photo {
+  max-height: 256px;
+  max-width: 200px;
+  display: inline-block;
+}
+.footer {
+  background-color: crimson;
+  border-radius: 15px;
+  height: 5vh;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  margin: auto;
+}
+.footer__text {
+  display: inline-block;
+}
